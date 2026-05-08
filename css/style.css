@@ -1,13 +1,12 @@
-/* Color Palette & Variables */
 :root {
-    --bg-dark: #0f172a;
-    --text-main: #f8fafc;
-    --text-muted: #cbd5e1;
-    --accent: #38bdf8;
+    --bg-dark: #002c5c; /* Un Azul Rey profundo y elegante pero más brillante que el anterior */
+    --text-main: #ffffff; /* Blanco puro para máximo contraste */
+    --text-muted: #d0e4ff; /* Blanco con un sutil azul claro para lectura suave */
+    --accent: #38bdf8; /* Azul cyan para botones y detalles que llamen la atención */
     --accent-hover: #0ea5e9;
-    --card-bg: rgba(30, 41, 59, 0.7);
-    --nav-bg: rgba(15, 23, 42, 0.8);
-    --border-color: rgba(255, 255, 255, 0.1);
+    --card-bg: rgba(0, 60, 118, 0.6); /* Cajas ligeramente más claras que el fondo */
+    --nav-bg: rgba(0, 44, 92, 0.9);
+    --border-color: rgba(255, 255, 255, 0.15);
     
     font-size: 16px;
 }
