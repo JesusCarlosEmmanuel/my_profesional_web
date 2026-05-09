@@ -21,10 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
             card.target = '_blank';
             card.className = 'cert-card glass-panel';
             
+            const btnText = document.documentElement.lang === 'en' ? 'View Certificate' : 'Ver Certificado';
             card.innerHTML = `
                 <i class='${iconClass}'></i>
                 <h3>${cert.name}</h3>
-                <span class="btn-small">Ver Certificado</span>
+                <span class="btn-small">${btnText}</span>
             `;
             
             certGrid.appendChild(card);
